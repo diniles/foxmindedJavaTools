@@ -1,4 +1,4 @@
-package com.dl.junit;
+package com.dl.junit.helloworld;
 
 public class HelloWorld {
     public static String printHello() {
