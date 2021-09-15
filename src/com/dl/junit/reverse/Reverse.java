@@ -1,4 +1,4 @@
-package com.dl.junit.helloworld;
+package com.dl.junit.reverse;
 
 public class Reverse {
 
