@@ -4,6 +4,9 @@ public class Reverse {
 
     public static void main(String[] args) {
         System.out.println(reverse("helloween"));
+        System.out.println(reverse("Iron Maiden"));
+        System.out.println(reverse("Judas Priest"));
+        System.out.println(reverse("Ария"));
     }
 
     public static String reverse(String input) {
