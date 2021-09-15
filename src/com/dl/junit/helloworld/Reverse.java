@@ -1,6 +1,11 @@
 package com.dl.junit.helloworld;
 
 public class Reverse {
+
+    public static void main(String[] args) {
+        System.out.println(reverse("helloween"));
+    }
+
     public static String reverse(String input) {
         String[] inputWords = input.split(" ");
         String[] outputWords = new String[inputWords.length];
@@ -13,7 +18,4 @@ public class Reverse {
         return String.join(" ", outputWords);
     }
 
-    public static void main(String[] args) {
-        System.out.println(reverse("helloween"));
-    }
 }
